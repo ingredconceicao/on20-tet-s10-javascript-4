@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Ghibli';
+  src: url('../Ghibli/Ghibli-Font/Eyad\ Al-Samman\ -\ Ghibli.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ghibli';
+  font-size: 10px;
+    color: #f3f3f7;
+}
+
+  
+  body {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    align-items: center;
+    background-size: cover;
+    background-color: rgb(63, 0, 139);
+  }
+  
+  #demo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .film {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 5%;
+    align-self: center;
+    box-shadow: 1px 1px 10px #7f8fa6;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
